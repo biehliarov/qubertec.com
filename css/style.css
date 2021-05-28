@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: url(../img/background.png);
+  background-size: cover;
+  font-family: 'Arimo', sans-serif;
+  color: #fff;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  color: #009C41;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+header .txt {
+  font-size: 18px;
+  font: inherit;
+}
+
+header .img {
+  background: #009C41;
+  height: 30px;
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 19px;
+  border-radius: 30%;
+}
+
+.head--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 60px;
+  height: 75px;
+  color: #5F5F5F;
+  background: #F5F5F5;
+  -webkit-box-shadow: inset 0px 6px 10px 2px rgba(34, 60, 80, 0.2);
+          box-shadow: inset 0px 6px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.main {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main hr {
+  height: 5px;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.main-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 48px;
+}
+
+.main-cont img {
+  height: 75px;
+  width: 75px;
+  margin-left: 40px;
+}
+
+span {
+  font-weight: bold;
+}
+
+form {
+  margin: 70px 0;
+}
+
+form label {
+  font-size: 24px;
+}
+
+form input {
+  height: 60px;
+  width: 100%;
+  border-radius: 356px;
+  font-size: 24px;
+  outline: none;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+form .field {
+  text-align: right;
+  width: 350px;
+  margin: 60px auto;
+}
+
+form .field p {
+  margin: 0 30px 15px 0;
+}
+
+form button {
+  padding: 20px 160px;
+  margin: 40px 20px;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 24px;
+}
+
+form button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+form .prev {
+  background-color: #C4C4C4;
+}
+
+form .success {
+  background-color: #009C41;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    height: 60px;
+  }
+  .head--text {
+    display: none;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .main hr {
+    height: 3px;
+  }
+  form {
+    margin: 45px 0;
+  }
+  form h2 {
+    font-size: 24px;
+  }
+  form .field {
+    margin: 40px auto;
+  }
+  form label {
+    font-size: 18px;
+  }
+  form input {
+    height: 40px;
+  }
+  form button {
+    width: 155px;
+    height: 40px;
+    padding: 0;
+    margin: 40px 10px 0 10px;
+    border: none;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  header {
+    height: 60px;
+  }
+  .head--text {
+    display: none;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .main hr {
+    height: 3px;
+  }
+  form {
+    margin: 45px 0;
+  }
+  form h2 {
+    font-size: 24px;
+  }
+  form .field {
+    margin: 40px auto;
+  }
+  form label {
+    font-size: 18px;
+  }
+  form input {
+    height: 40px;
+  }
+  form button {
+    width: 155px;
+    height: 40px;
+    padding: 0;
+    margin: 40px 10px 0 10px;
+    border: none;
+    font-size: 18px;
+  }
+}
