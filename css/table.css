@@ -93,7 +93,7 @@ span {
 }
 
 body {
-  background: url(/img/background_2.png);
+  background: url(/qubertec.com/img/background_2.png);
   background-size: cover;
   font-family: 'Arimo', sans-serif;
   color: #fff;
@@ -218,7 +218,7 @@ tbody tr {
 }
 
 tbody tr :hover::before {
-  content: url(/img/bef_1.svg);
+  content: url(/qubertec.com/img/bef_1.svg);
   background-color: #fff;
   position: absolute;
   right: 140px;
@@ -238,7 +238,7 @@ tbody tr :hover::before {
 }
 
 tbody tr :hover::after {
-  content: url(/img/bef_2.svg);
+  content: url(/qubertec.com/img/bef_2.svg);
   background-color: #fff;
   position: absolute;
   right: 90px;
@@ -300,7 +300,7 @@ tbody tr :first-child {
   }
   .search::before {
     content: ' ';
-    background-image: url(/img/plus.png);
+    background-image: url(/qubertec.com/img/plus.png);
     height: 40px;
     width: 40px;
   }
