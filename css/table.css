@@ -93,7 +93,7 @@ span {
 }
 
 body {
-  background: url(/qubertec.com/img/background_2.png);
+  background-image: url(/qubertec.com/img/background_2.png);
   background-size: cover;
   font-family: 'Arimo', sans-serif;
   color: #fff;
