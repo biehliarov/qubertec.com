@@ -93,7 +93,7 @@ span {
 }
 
 body {
-  background-image: url(../img/background_2.png);
+  background: url(../img/background_2.png);
   background-size: cover;
   font-family: 'Arimo', sans-serif;
   color: #fff;
